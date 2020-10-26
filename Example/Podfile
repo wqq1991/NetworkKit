@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'NetworkServerKit_Example' do
+  pod 'NetworkServerKit', :path => '../'
+
+  target 'NetworkServerKit_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase' , '~> 2.1.4'
+  end
+end
