@@ -28,8 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0656712E53D73176570E03D5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		308D12EBE8248F611A7E47CC /* NetworkServerKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = NetworkServerKit.podspec; path = ../NetworkServerKit.podspec; sourceTree = "<group>"; };
+		0656712E53D73176570E03D5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		4F846D225FCDA80BDF5AEA3F /* Pods-NetworkServerKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetworkServerKit_Tests.debug.xcconfig"; path = "Target Support Files/Pods-NetworkServerKit_Tests/Pods-NetworkServerKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* NetworkServerKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetworkServerKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -46,7 +45,7 @@
 		7A474FC172598C9CE8EF4AC3 /* Pods-NetworkServerKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetworkServerKit_Example.release.xcconfig"; path = "Target Support Files/Pods-NetworkServerKit_Example/Pods-NetworkServerKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		B4BBD12A3030A606C6379B52 /* Pods-NetworkServerKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetworkServerKit_Tests.release.xcconfig"; path = "Target Support Files/Pods-NetworkServerKit_Tests/Pods-NetworkServerKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		FEAFAED7607F8DB0D1D244BB /* Pods_NetworkServerKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NetworkServerKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FF44092269195484E298E978 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		FF44092269195484E298E978 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,7 +131,6 @@
 		607FACF51AFB993E008FA782 /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				308D12EBE8248F611A7E47CC /* NetworkServerKit.podspec */,
 				0656712E53D73176570E03D5 /* README.md */,
 				FF44092269195484E298E978 /* LICENSE */,
 			);
@@ -147,7 +145,6 @@
 				4F846D225FCDA80BDF5AEA3F /* Pods-NetworkServerKit_Tests.debug.xcconfig */,
 				B4BBD12A3030A606C6379B52 /* Pods-NetworkServerKit_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -171,7 +168,7 @@
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				4481EE8407A3956D025228BE /* [CP] Embed Pods Frameworks */,
+				47BCE61EB8C564C80462807C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -228,6 +225,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -263,18 +261,26 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		4481EE8407A3956D025228BE /* [CP] Embed Pods Frameworks */ = {
+		47BCE61EB8C564C80462807C /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-NetworkServerKit_Example/Pods-NetworkServerKit_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/NetworkServerKit/NetworkServerKit.framework",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/HandyJSON/HandyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+				"${BUILT_PRODUCTS_DIR}/WBNetworkServerKit/WBNetworkServerKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NetworkServerKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HandyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WBNetworkServerKit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'Classes/**/*'
+  s.source_files = 'WBNetworkServerKit/Classes/**/*'
   
   # s.resource_bundles = {
   #   'NetworkServerKit' => ['NetworkServerKit/Assets/*.png']
@@ -38,7 +38,6 @@ TODO: Add long description of the pod here.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit' 
-
   s.dependency 'Alamofire'
   s.dependency 'Moya'
   
