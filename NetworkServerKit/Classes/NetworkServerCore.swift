@@ -37,5 +37,4 @@ class NetworkServerCore: NSObject {
 			finishedBlock(nil, error)
 		}
 	}
-	
 }
