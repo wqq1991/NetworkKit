@@ -19,7 +19,7 @@ PODS:
 
 DEPENDENCIES:
   - FBSnapshotTestCase (~> 2.1.4)
-  - WBNetworkServerKit (from `../`)
+  - WBNetworkServerKit
 
 SPEC REPOS:
   trunk:
@@ -28,10 +28,7 @@ SPEC REPOS:
     - HandyJSON
     - Moya
     - Result
-
-EXTERNAL SOURCES:
-  WBNetworkServerKit:
-    :path: "../"
+    - WBNetworkServerKit
 
 SPEC CHECKSUMS:
   Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
@@ -41,6 +38,6 @@ SPEC CHECKSUMS:
   Result: bd966fac789cc6c1563440b348ab2598cc24d5c7
   WBNetworkServerKit: 1f529b38fcca2c18459b07c232b0a1c64ad1df94
 
-PODFILE CHECKSUM: 605aca776df176b9c176a8c5ee05acef0b9fbb6d
+PODFILE CHECKSUM: 805f24980e6980e605b36639f359939f08841252
 
 COCOAPODS: 1.10.0

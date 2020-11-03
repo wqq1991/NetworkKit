@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-方便集成和使用网络请求框架.
+	一个简单的Swift网络请求库,支持OC调用,方便集成和使用网络请求框架.
                        DESC
 
   s.homepage         = 'https://github.com/wqq1991/NetworkKit'
@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/wqq1991/NetworkKit.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '10.0'
 
   s.source_files = 'WBNetworkServerKit/Classes/**/*'
   
