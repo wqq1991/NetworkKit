@@ -7,9 +7,9 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'NetworkServerKit'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of NetworkServerKit.'
+  s.name             = 'WBNetworkServerKit'
+  s.version          = '0.1.9'
+  s.summary          = '一个简单的网络请求框架'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,22 +21,27 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/桥桥 吴/NetworkServerKit'
+  s.homepage         = 'https://github.com/wqq1991/NetworkKit'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '桥桥 吴' => 'wqq1991@live.com' }
-  s.source           = { :git => 'https://github.com/桥桥 吴/NetworkServerKit.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/wqq1991/NetworkKit.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '10.0'
 
-  s.source_files = 'NetworkServerKit/Classes/**/*'
+  s.source_files = 'NetworkServerKit/Classes/**/*.swift'
   
   # s.resource_bundles = {
   #   'NetworkServerKit' => ['NetworkServerKit/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
+  s.public_header_files = 'NetworkServerKit/Classes/*.swift'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+   
+	 s.dependency 'Alamofire'
+	 s.dependency 'Moya'
+	 
+	 #JSON解析
+	 s.dependency 'HandyJSON'
 end

@@ -1,0 +1,22 @@
+{
+  "name": "NetworkServerKit",
+  "version": "0.1.0",
+  "summary": "A short description of NetworkServerKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/桥桥 吴/NetworkServerKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "桥桥 吴": "wqq1991@live.com"
+  },
+  "source": {
+    "git": "https://github.com/桥桥 吴/NetworkServerKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "NetworkServerKit/Classes/**/*"
+}

@@ -1,7 +1,9 @@
 use_frameworks!
 
 target 'NetworkServerKit_Example' do
-  pod 'NetworkServerKit', :path => '../'
+  
+	pod 'WBNetworkServerKit', '~> 0.2.0'
+#pod 'WBNetworkServerKit', :path => '..'
 
   target 'NetworkServerKit_Tests' do
     inherit! :search_paths

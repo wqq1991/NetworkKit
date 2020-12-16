@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		496EC0D8255036B0003BC8FD /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 496EC0D7255036B0003BC8FD /* Test.m */; };
+		49747BB5254D64E200B29FF4 /* WBNetworkServerKit.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 49747BB4254D64D000B29FF4 /* WBNetworkServerKit.podspec */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
@@ -28,10 +30,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0656712E53D73176570E03D5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		308D12EBE8248F611A7E47CC /* NetworkServerKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = NetworkServerKit.podspec; path = ../NetworkServerKit.podspec; sourceTree = "<group>"; };
+		0656712E53D73176570E03D5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		496EC0D5255036AF003BC8FD /* NetworkServerKit_Example-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NetworkServerKit_Example-Bridging-Header.h"; sourceTree = "<group>"; };
+		496EC0D6255036B0003BC8FD /* Test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test.h; sourceTree = "<group>"; };
+		496EC0D7255036B0003BC8FD /* Test.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test.m; sourceTree = "<group>"; };
+		49747BB4254D64D000B29FF4 /* WBNetworkServerKit.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; name = WBNetworkServerKit.podspec; path = ../WBNetworkServerKit.podspec; sourceTree = "<group>"; };
 		4F846D225FCDA80BDF5AEA3F /* Pods-NetworkServerKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetworkServerKit_Tests.debug.xcconfig"; path = "Target Support Files/Pods-NetworkServerKit_Tests/Pods-NetworkServerKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		607FACD01AFB9204008FA782 /* NetworkServerKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetworkServerKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		607FACD01AFB9204008FA782 /* NetworkServerKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetworkServerKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		607FACD71AFB9204008FA782 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -46,7 +51,7 @@
 		7A474FC172598C9CE8EF4AC3 /* Pods-NetworkServerKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetworkServerKit_Example.release.xcconfig"; path = "Target Support Files/Pods-NetworkServerKit_Example/Pods-NetworkServerKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		B4BBD12A3030A606C6379B52 /* Pods-NetworkServerKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetworkServerKit_Tests.release.xcconfig"; path = "Target Support Files/Pods-NetworkServerKit_Tests/Pods-NetworkServerKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		FEAFAED7607F8DB0D1D244BB /* Pods_NetworkServerKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NetworkServerKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FF44092269195484E298E978 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		FF44092269195484E298E978 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,7 +89,7 @@
 		607FACD11AFB9204008FA782 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				607FACD01AFB9204008FA782 /* NetworkServerKit_Example.app */,
+				607FACD01AFB9204008FA782 /* NetworkServerKit.app */,
 				607FACE51AFB9204008FA782 /* NetworkServerKit_Tests.xctest */,
 			);
 			name = Products;
@@ -95,10 +100,13 @@
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
+				496EC0D6255036B0003BC8FD /* Test.h */,
+				496EC0D7255036B0003BC8FD /* Test.m */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
+				496EC0D5255036AF003BC8FD /* NetworkServerKit_Example-Bridging-Header.h */,
 			);
 			name = "Example for NetworkServerKit";
 			path = NetworkServerKit;
@@ -132,7 +140,7 @@
 		607FACF51AFB993E008FA782 /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				308D12EBE8248F611A7E47CC /* NetworkServerKit.podspec */,
+				49747BB4254D64D000B29FF4 /* WBNetworkServerKit.podspec */,
 				0656712E53D73176570E03D5 /* README.md */,
 				FF44092269195484E298E978 /* LICENSE */,
 			);
@@ -147,7 +155,6 @@
 				4F846D225FCDA80BDF5AEA3F /* Pods-NetworkServerKit_Tests.debug.xcconfig */,
 				B4BBD12A3030A606C6379B52 /* Pods-NetworkServerKit_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -163,23 +170,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		607FACCF1AFB9204008FA782 /* NetworkServerKit_Example */ = {
+		607FACCF1AFB9204008FA782 /* NetworkServerKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "NetworkServerKit_Example" */;
+			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "NetworkServerKit" */;
 			buildPhases = (
 				B5CD4287105873F97D7D60F3 /* [CP] Check Pods Manifest.lock */,
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				4481EE8407A3956D025228BE /* [CP] Embed Pods Frameworks */,
+				E553CDDE0A32E129BB757802 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = NetworkServerKit_Example;
+			name = NetworkServerKit;
 			productName = NetworkServerKit;
-			productReference = 607FACD01AFB9204008FA782 /* NetworkServerKit_Example.app */;
+			productReference = 607FACD01AFB9204008FA782 /* NetworkServerKit.app */;
 			productType = "com.apple.product-type.application";
 		};
 		607FACE41AFB9204008FA782 /* NetworkServerKit_Tests */ = {
@@ -214,7 +221,7 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0900;
+						LastSwiftMigration = 1220;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
@@ -228,6 +235,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -236,7 +244,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				607FACCF1AFB9204008FA782 /* NetworkServerKit_Example */,
+				607FACCF1AFB9204008FA782 /* NetworkServerKit */,
 				607FACE41AFB9204008FA782 /* NetworkServerKit_Tests */,
 			);
 		};
@@ -247,6 +255,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49747BB5254D64E200B29FF4 /* WBNetworkServerKit.podspec in Resources */,
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
@@ -263,24 +272,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		4481EE8407A3956D025228BE /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-NetworkServerKit_Example/Pods-NetworkServerKit_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/NetworkServerKit/NetworkServerKit.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NetworkServerKit.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NetworkServerKit_Example/Pods-NetworkServerKit_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		B5CD4287105873F97D7D60F3 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -321,6 +312,32 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NetworkServerKit_Tests/Pods-NetworkServerKit_Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		E553CDDE0A32E129BB757802 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NetworkServerKit_Example/Pods-NetworkServerKit_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/HandyJSON/HandyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+				"${BUILT_PRODUCTS_DIR}/WBNetworkServerKit/WBNetworkServerKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HandyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WBNetworkServerKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NetworkServerKit_Example/Pods-NetworkServerKit_Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		F6027DACB419F6FCD536063A /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -350,6 +367,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				496EC0D8255036B0003BC8FD /* Test.m in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
@@ -368,7 +386,7 @@
 /* Begin PBXTargetDependency section */
 		607FACE71AFB9204008FA782 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 607FACCF1AFB9204008FA782 /* NetworkServerKit_Example */;
+			target = 607FACCF1AFB9204008FA782 /* NetworkServerKit */;
 			targetProxy = 607FACE61AFB9204008FA782 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -497,11 +515,14 @@
 			baseConfigurationReference = 78D18D72A86273BEE3A12AA1 /* Pods-NetworkServerKit_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = NetworkServerKit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "NetworkServerKit/NetworkServerKit_Example-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
 			};
@@ -512,11 +533,13 @@
 			baseConfigurationReference = 7A474FC172598C9CE8EF4AC3 /* Pods-NetworkServerKit_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = NetworkServerKit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "NetworkServerKit/NetworkServerKit_Example-Bridging-Header.h";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
 			};
@@ -574,7 +597,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "NetworkServerKit_Example" */ = {
+		607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "NetworkServerKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				607FACF01AFB9204008FA782 /* Debug */,
