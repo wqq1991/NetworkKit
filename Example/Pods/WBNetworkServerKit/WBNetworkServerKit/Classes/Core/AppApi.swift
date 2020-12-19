@@ -73,14 +73,27 @@ extension AppApi : TargetType {
 		
 		self.networkDebugLog(title: "🚀🚀发送请求🚀🚀", domainName: self.baseURL.absoluteString, path: self.path, describe: "请求包文:", parameters: "\nParameters：\(parameters) \nHeaders：\(String(describing: self.headers))\nUUID:\("")")
 		
-		if self.method == .post {
-			
-			return .requestParameters(parameters: parameters, encoding: JSONEncoding.default)
-		}else
-		{
-			return .requestParameters(parameters: parameters, encoding:URLEncoding.default)
+		var encodingType : ParameterEncoding = JSONEncoding.default
+		
+		switch headers?["Content-Type"] {
+			case "application/x-www-form-urlencoded", "multipart/form-data":
+				encodingType = URLEncoding.default
+				
+			case "application/json":
+				encodingType = JSONEncoding.default
+				
+			default:
+				encodingType = JSONEncoding.default
+				break
 		}
 		
+		if self.method == .post {
+			 
+			return .requestParameters(parameters: parameters, encoding: encodingType)
+		}else
+		{
+			return .requestParameters(parameters: parameters, encoding:encodingType)
+		}
 	}
 	
 	var headers: [String : String]? {
