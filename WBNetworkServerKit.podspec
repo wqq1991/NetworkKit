@@ -30,13 +30,13 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '10.0'
 
-  s.source_files = 'NetworkServerKit/Classes/**/*.swift'
+  s.source_files = 'NetworkServerKit/Classes/**/*.{swift,h,m}'
   
   # s.resource_bundles = {
   #   'NetworkServerKit' => ['NetworkServerKit/Assets/*.png']
   # }
 
-  s.public_header_files = 'NetworkServerKit/Classes/*.swift'
+  # s.public_header_files = 'NetworkServerKit/Classes/*.{swift,h,m}'
   # s.frameworks = 'UIKit', 'MapKit'
    
 	 s.dependency 'Alamofire'
