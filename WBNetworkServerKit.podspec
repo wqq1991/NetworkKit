@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'WBNetworkServerKit'
-  s.version          = '0.2.3'
-  s.summary          = '一个简单的Swift网络请求库.支持OC调用'
+  s.version          = '0.2.4'
+  s.summary          = '一个简单的网络请求框架'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-	一个简单的Swift网络请求库,支持OC调用,方便集成和使用网络请求框架.
+TODO: Add long description of the pod here.
                        DESC
 
   s.homepage         = 'https://github.com/wqq1991/NetworkKit'
@@ -30,17 +30,18 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '10.0'
 
-  s.source_files = 'WBNetworkServerKit/Classes/**/*'
+  s.source_files = 'NetworkServerKit/Classes/**/*.swift'
   
   # s.resource_bundles = {
   #   'NetworkServerKit' => ['NetworkServerKit/Assets/*.png']
   # }
 
-  # s.public_header_files = 'WBNetworkServerKit/Classes/**/*.swift'
-  # s.frameworks = 'UIKit', 'MapKit' 
-  s.dependency 'Alamofire'
-  s.dependency 'Moya'
-  
-  #JSON解析
-  s.dependency 'HandyJSON'
+  s.public_header_files = 'NetworkServerKit/Classes/*.swift'
+  # s.frameworks = 'UIKit', 'MapKit'
+   
+	 s.dependency 'Alamofire'
+	 s.dependency 'Moya'
+	 
+	 #JSON解析
+	 s.dependency 'HandyJSON'
 end

@@ -19,9 +19,8 @@
 		121439AB6B4061E1B6222256817548FA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C075CA0B23FD4F3C181C1CEFC2A3FF9 /* XCTest.framework */; };
 		132E0F619E4338E5D1B27E4C72076B3F /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B969078CB903323910B4345853D5ED /* Notifications.swift */; };
 		14AD81D52FAD9CF2C065C61FB00C3B4F /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC8F0133FBBDC6BD03C45D0031E2193 /* UIImage+Diff.m */; };
-		161AC84E72EC2DFD6F8F33D9529E36F7 /* AppApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29EED35D8C0A3072034C97348E13F537 /* AppApi.swift */; };
 		16B13E23533CDF513B4A603B243FE67E /* PointerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35060E950D4BDF8C97013AA1D6735EE3 /* PointerType.swift */; };
-		1703F0ABA14C5CFA9B333FBE0629EE01 /* WBNetworkServerKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B082DA99B648430973A28E9741A595DE /* WBNetworkServerKit-dummy.m */; };
+		1703F0ABA14C5CFA9B333FBE0629EE01 /* WBNetworkServerKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CF87A1A15E6000BE23540D5F01198BC /* WBNetworkServerKit-dummy.m */; };
 		1945CD5D63A1C164AEAAA9A33E85571E /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F7CA2C92BC232280BB5DC1F3758CCA59 /* Alamofire-dummy.m */; };
 		1986B50C74F1697EA43F68335C93CEB3 /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A325BFAA5D48EFEB4EC9469931DEE098 /* MultipartFormData.swift */; };
 		1A820E3753A58F90E41466C32436FDEE /* Export.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6DFD311FDDF6449030DF5A6E74E26EE /* Export.swift */; };
@@ -51,7 +50,7 @@
 		4B7F2827C863E6361258CC5B9BBA3613 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3D113757C9CFFB461516C3D8829C75E /* Image.swift */; };
 		4E2B14200047E6C7E715CC9310236951 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8416D0104F115523FB18DAD94A6088C6 /* Logger.swift */; };
 		50013C33D35EBAF31ACF3A8B3A9A3FB4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27F1E8C96A4944357DC891C8F2F8B21E /* Foundation.framework */; };
-		50911FED29A9F3C34C3AFDB375205AF0 /* WBNetworkServerKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F29C342EE173E89A4F6C7E4C4ABB904C /* WBNetworkServerKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		50911FED29A9F3C34C3AFDB375205AF0 /* WBNetworkServerKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BD093F5161828F6CEE7259A9E74D68AA /* WBNetworkServerKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		521E330943F0873C4A7233989DC674DD /* EnumType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2994F97F6B109DDECF354BB3D1A99792 /* EnumType.swift */; };
 		53791F5E5F07400F92CFDFC89A432305 /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C46DCC7F1FD7E7F9B9B80DF8812CCD3 /* Validation.swift */; };
 		57C95D9E1D3E4C7F9CE26FCD771BD1FF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27F1E8C96A4944357DC891C8F2F8B21E /* Foundation.framework */; };
@@ -71,7 +70,9 @@
 		6DB8FA74B7F3462DF506B3BD2AC00396 /* Pods-NetworkServerKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 39C1D7F1D4CD866A41D253284767B1DA /* Pods-NetworkServerKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6DBC8EB7532E931C2FBDA71D1E0B66A4 /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D296E975408F083E64756A904DC5629A /* FBSnapshotTestCase-dummy.m */; };
 		725B41FE397E75CF5BAFB3F4D52CFBF4 /* MoyaProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0595FDB6C78B7C0E6CB23B19AEA6D076 /* MoyaProvider.swift */; };
+		7484AB0F3A3E94FD083654C09A58F61D /* AppApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23AE1075C4C66F5933A5A2DB608EA20 /* AppApi.swift */; };
 		78B971DF19387A49198D087D9822856B /* HandyJSON-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C441DDE552296C0ED687BC72F195E8F7 /* HandyJSON-dummy.m */; };
+		7D1C611B66117AC639A4A74049B02053 /* NetworkServerCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0677FDB12F90112BDEDFA31DCA572442 /* NetworkServerCore.swift */; };
 		817E3E8D117D98E8CCB86E1BC6017C94 /* Pods-NetworkServerKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A6FC939A72E225E503FB217DA60E11F /* Pods-NetworkServerKit_Tests-dummy.m */; };
 		82B7E937F357B41B13F80315E8B772D6 /* ReflectionHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F55287E434D609813B039AD049D029F /* ReflectionHelper.swift */; };
 		83956E20859CDBBE7BC38ABADE0170FB /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3312196231C444CCD299E81EFB26DC0 /* AFError.swift */; };
@@ -90,7 +91,6 @@
 		A525E29E0A8079B35B793D8A2B5FBDF2 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = D7252991385C8833934F84BEF0EE97A7 /* UIImage+Snapshot.m */; };
 		A5A670718210E23F4C4B88A9FA9E3E5E /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = C972CFC890DCE3FCB450909DCFA7BBDE /* Task.swift */; };
 		A6C997F7043C462E8EDB08A4DF60F3DD /* HandyJSON-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FA3C9C257B4E52F57EC45A49EC8ADF0 /* HandyJSON-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A904742D8628E78115D13ACBEEB564C1 /* NetworkServerCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4C7BE22CA0E02BE0197AF92A270BFD /* NetworkServerCore.swift */; };
 		AA2C1E2D3965141C08CABE30C2D40E9D /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FA9C4FD6424B54CB62CAF04D5711F8A /* Alamofire.framework */; };
 		AF74C394AF91522AD123EE445457CD91 /* CredentialsPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8CAB514F8C3DFE802AB1159C5ADD49 /* CredentialsPlugin.swift */; };
 		AFC64B1097F7355FF423D6A73E9C7210 /* TaskDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF19C07C853D5A6C0208E9D3D5EA9039 /* TaskDelegate.swift */; };
@@ -231,6 +231,7 @@
 		048230B19BDCC1648208FBBD1FE0C453 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		0595FDB6C78B7C0E6CB23B19AEA6D076 /* MoyaProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MoyaProvider.swift; path = Sources/Moya/MoyaProvider.swift; sourceTree = "<group>"; };
 		063D875992EBCB9F2EA199B757986F25 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
+		0677FDB12F90112BDEDFA31DCA572442 /* NetworkServerCore.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkServerCore.swift; path = NetworkServerKit/Classes/NetworkServerCore.swift; sourceTree = "<group>"; };
 		06E74C79470D4D1AED754D60B109A595 /* MoyaProvider+Defaults.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "MoyaProvider+Defaults.swift"; path = "Sources/Moya/MoyaProvider+Defaults.swift"; sourceTree = "<group>"; };
 		08A719DE5C91DFBEBF7E7E8E19A21062 /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
 		08B52CE069BF8381A15694B8D0B3148A /* Pods-NetworkServerKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NetworkServerKit_Tests.modulemap"; sourceTree = "<group>"; };
@@ -257,15 +258,14 @@
 		242C1840A9B7CE56C40EFDE488E2FE40 /* Pods-NetworkServerKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NetworkServerKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		27F1E8C96A4944357DC891C8F2F8B21E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		2994F97F6B109DDECF354BB3D1A99792 /* EnumType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EnumType.swift; path = Source/EnumType.swift; sourceTree = "<group>"; };
-		29EED35D8C0A3072034C97348E13F537 /* AppApi.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AppApi.swift; path = WBNetworkServerKit/Classes/Core/AppApi.swift; sourceTree = "<group>"; };
 		2A79B10FD5AF02F65620144A929BB388 /* ISO8601DateTransform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ISO8601DateTransform.swift; path = Source/ISO8601DateTransform.swift; sourceTree = "<group>"; };
 		2CB41EF4C52CB98D201202622988CBB6 /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Result/Result.swift; sourceTree = "<group>"; };
+		2E4340E372054BF6DE735DA55C60A222 /* WBNetworkServerKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WBNetworkServerKit.release.xcconfig; sourceTree = "<group>"; };
 		33A76F8D3792847E9D1F787338D87015 /* TransformType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransformType.swift; path = Source/TransformType.swift; sourceTree = "<group>"; };
 		35060E950D4BDF8C97013AA1D6735EE3 /* PointerType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PointerType.swift; path = Source/PointerType.swift; sourceTree = "<group>"; };
 		3756A9BBE41ABEE8DCBF5BCA6972C4DA /* Moya.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Moya.framework; path = Moya.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		39C1D7F1D4CD866A41D253284767B1DA /* Pods-NetworkServerKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NetworkServerKit_Example-umbrella.h"; sourceTree = "<group>"; };
 		3B8CA8189A5C9B1359DA1D9C683F59E2 /* SessionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionManager.swift; path = Source/SessionManager.swift; sourceTree = "<group>"; };
-		3D4C7BE22CA0E02BE0197AF92A270BFD /* NetworkServerCore.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkServerCore.swift; path = WBNetworkServerKit/Classes/NetworkServerCore.swift; sourceTree = "<group>"; };
 		3F55287E434D609813B039AD049D029F /* ReflectionHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReflectionHelper.swift; path = Source/ReflectionHelper.swift; sourceTree = "<group>"; };
 		431DFD4B300BB9C3EE1A551EF4DAC59F /* CBridge.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CBridge.swift; path = Source/CBridge.swift; sourceTree = "<group>"; };
 		44B969078CB903323910B4345853D5ED /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
@@ -279,9 +279,7 @@
 		4DD0AFDD608E6CC55F3A0EA95025B799 /* HandyJSON-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HandyJSON-prefix.pch"; sourceTree = "<group>"; };
 		4E5A5A6597B3F9175C00F084DF8B61FB /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Source/Result.swift; sourceTree = "<group>"; };
 		4FF9EF68B9DDCC04FA2141927A1C5CD4 /* Result-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Result-dummy.m"; sourceTree = "<group>"; };
-		5107151241E20ADE9442F1F7AE339F4D /* WBNetworkServerKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WBNetworkServerKit.debug.xcconfig; sourceTree = "<group>"; };
 		52A48BC42CF0C2029D721E1087C34CD8 /* Pods-NetworkServerKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NetworkServerKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		53BB5EE0C19240D66B1A77533100D956 /* WBNetworkServerKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WBNetworkServerKit.release.xcconfig; sourceTree = "<group>"; };
 		57749E5213B123B131146743D86D50C3 /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Alamofire.modulemap; sourceTree = "<group>"; };
 		57E34B916CF0849871336E433F33AE9D /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
 		582EBB1E44238A4BE780F919EDBEAD99 /* DateTransform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DateTransform.swift; path = Source/DateTransform.swift; sourceTree = "<group>"; };
@@ -293,6 +291,7 @@
 		5E6A12580BBFCE7ACDB075F3EA9D47C1 /* NSDecimalNumberTransform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NSDecimalNumberTransform.swift; path = Source/NSDecimalNumberTransform.swift; sourceTree = "<group>"; };
 		6645B37D1137C363A40A120152C347EF /* HandyJSON-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "HandyJSON-Info.plist"; sourceTree = "<group>"; };
 		692E43AEF77108F3F3326073D5B2C882 /* HelpingMapper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HelpingMapper.swift; path = Source/HelpingMapper.swift; sourceTree = "<group>"; };
+		6A74171209F602655C5EB453CFE01F92 /* WBNetworkServerKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WBNetworkServerKit-prefix.pch"; sourceTree = "<group>"; };
 		6C46DCC7F1FD7E7F9B9B80DF8812CCD3 /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
 		6CACBEB305498857BD1ED60AC0FCA4FF /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
 		6FA3C9C257B4E52F57EC45A49EC8ADF0 /* HandyJSON-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HandyJSON-umbrella.h"; sourceTree = "<group>"; };
@@ -314,11 +313,14 @@
 		8ED5EE790880CCC64FC7E880C5C7021E /* Moya-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Moya-prefix.pch"; sourceTree = "<group>"; };
 		8F06CB71570210B6F1E07E5DE270F5B8 /* CustomDateFormatTransform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomDateFormatTransform.swift; path = Source/CustomDateFormatTransform.swift; sourceTree = "<group>"; };
 		8F3C3A77A4B55F1AB57F50093A16FE66 /* ContextDescriptorType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContextDescriptorType.swift; path = Source/ContextDescriptorType.swift; sourceTree = "<group>"; };
+		90E39B31700047E181C47805E3253630 /* WBNetworkServerKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WBNetworkServerKit.debug.xcconfig; sourceTree = "<group>"; };
 		927BCAF32BDF20C77E3C116AE4288E87 /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
 		969CFF838A7C3E09606855CB238BED27 /* OtherExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OtherExtension.swift; path = Source/OtherExtension.swift; sourceTree = "<group>"; };
 		977FD0FAF6B2A9C8FB98881D172B35B3 /* AnyExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnyExtensions.swift; path = Source/AnyExtensions.swift; sourceTree = "<group>"; };
+		999502A6A18141DE6A81D94408A02CAF /* WBNetworkServerKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WBNetworkServerKit.modulemap; sourceTree = "<group>"; };
 		9AE3BD6A9EB3F43F246B98A73190E3C5 /* WBNetworkServerKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WBNetworkServerKit.framework; path = WBNetworkServerKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C2ABCDC8548A69952FF4CB73A54984E /* HandyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HandyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CF87A1A15E6000BE23540D5F01198BC /* WBNetworkServerKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WBNetworkServerKit-dummy.m"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9D9A69D5B9687A84DCC395CE6914A1CD /* MangledName.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MangledName.swift; path = Source/MangledName.swift; sourceTree = "<group>"; };
 		9FDB1CC152FA53844B2986AA8300E805 /* NetworkActivityPlugin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkActivityPlugin.swift; path = Sources/Moya/Plugins/NetworkActivityPlugin.swift; sourceTree = "<group>"; };
@@ -332,14 +334,15 @@
 		ACAE017345DE8B67FB26CF0F3C287267 /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
 		AEB88A324B83768F127A98BA3C8A9D5B /* ExtendCustomModelType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExtendCustomModelType.swift; path = Source/ExtendCustomModelType.swift; sourceTree = "<group>"; };
 		AF595BADEACD97E4C6EE56C07010D748 /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
-		B082DA99B648430973A28E9741A595DE /* WBNetworkServerKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WBNetworkServerKit-dummy.m"; sourceTree = "<group>"; };
+		B23AE1075C4C66F5933A5A2DB608EA20 /* AppApi.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AppApi.swift; path = NetworkServerKit/Classes/Core/AppApi.swift; sourceTree = "<group>"; };
 		B284F2244AB50A04CB7296CDCE08AE06 /* Serializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Serializer.swift; path = Source/Serializer.swift; sourceTree = "<group>"; };
 		B2DDEDAD88F554641DFC42888A65E261 /* Alamofire.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.release.xcconfig; sourceTree = "<group>"; };
 		B3A85AA280393B4B5DC0B59DFA6E7DBC /* TargetType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TargetType.swift; path = Sources/Moya/TargetType.swift; sourceTree = "<group>"; };
 		B4C20B896F469ED41F8C0CF6E76F0A37 /* MoyaError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MoyaError.swift; path = Sources/Moya/MoyaError.swift; sourceTree = "<group>"; };
 		B5CE9031A4012E22C3F1BDF58B071FEF /* AccessTokenPlugin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AccessTokenPlugin.swift; path = Sources/Moya/Plugins/AccessTokenPlugin.swift; sourceTree = "<group>"; };
 		B8C750F2CBB1C0CFC3A33B8ACE2E341F /* Pods-NetworkServerKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NetworkServerKit_Example-Info.plist"; sourceTree = "<group>"; };
-		BD6F607C7158ABE452A566C9E2D32E75 /* WBNetworkServerKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WBNetworkServerKit-Info.plist"; sourceTree = "<group>"; };
+		B9AB276CF88C87C236084F9119D3F9D1 /* WBNetworkServerKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WBNetworkServerKit-Info.plist"; sourceTree = "<group>"; };
+		BD093F5161828F6CEE7259A9E74D68AA /* WBNetworkServerKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WBNetworkServerKit-umbrella.h"; sourceTree = "<group>"; };
 		BDB0F8876D814408B845A59FB79107CD /* Metadata.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Metadata.swift; path = Source/Metadata.swift; sourceTree = "<group>"; };
 		BDDE7DF15BECFE95D7D8D1B1EA13B34C /* Pods_NetworkServerKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NetworkServerKit_Tests.framework; path = "Pods-NetworkServerKit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDF3698A0BA8D1A21CA4410CB3F11261 /* Moya.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Moya.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -358,7 +361,6 @@
 		CD54121DDA84872534168702B5F92950 /* HandyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HandyJSON.framework; path = HandyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD7E26F72F86E56C8840990BD95B8300 /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Source/SessionDelegate.swift; sourceTree = "<group>"; };
 		CE0C6838BAEE93C8F18170481EF5A59B /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
-		D108A2970E5F40758ACAF7B951531F86 /* WBNetworkServerKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WBNetworkServerKit.modulemap; sourceTree = "<group>"; };
 		D27DB8363E580131082DC5E13813037B /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
 		D296E975408F083E64756A904DC5629A /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
 		D2B366132FDCE8EE64C5DAB4FCA92FC2 /* Result.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Result.modulemap; sourceTree = "<group>"; };
@@ -366,7 +368,6 @@
 		D3254AF2200D91C3EDC54A01147D899C /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
 		D3312196231C444CCD299E81EFB26DC0 /* AFError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFError.swift; path = Source/AFError.swift; sourceTree = "<group>"; };
 		D7252991385C8833934F84BEF0EE97A7 /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
-		DF3930579B8CEF8E89E9FA5FB7FF0296 /* WBNetworkServerKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WBNetworkServerKit-prefix.pch"; sourceTree = "<group>"; };
 		DF964D1F21B06FDE11917F43F517DDF8 /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
 		E083342ADC40795E8CE4A00EC5A3D1BA /* Result-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Result-prefix.pch"; sourceTree = "<group>"; };
 		E2A9D868F2D46FC1180B15E7DA4D08D6 /* Moya.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Moya.release.xcconfig; sourceTree = "<group>"; };
@@ -381,7 +382,6 @@
 		F185A9E6DDC550076E8B67DC6215ADB5 /* DateFormatterTransform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DateFormatterTransform.swift; path = Source/DateFormatterTransform.swift; sourceTree = "<group>"; };
 		F207D3B6F5388C13EFF1EC7732513461 /* NoError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NoError.swift; path = Result/NoError.swift; sourceTree = "<group>"; };
 		F2177B23F31BC541B4BC85FA7FD40703 /* Moya+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Moya+Alamofire.swift"; path = "Sources/Moya/Moya+Alamofire.swift"; sourceTree = "<group>"; };
-		F29C342EE173E89A4F6C7E4C4ABB904C /* WBNetworkServerKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WBNetworkServerKit-umbrella.h"; sourceTree = "<group>"; };
 		F3009EA407EA81861E85CE2780075290 /* Pods-NetworkServerKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NetworkServerKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		F39AF7B9DC0CB0FBC57E756DE3A07BF2 /* Timeline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timeline.swift; path = Source/Timeline.swift; sourceTree = "<group>"; };
 		F62BD69DF75EDAFCEFDEEBEE923D899F /* FieldDescriptor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FieldDescriptor.swift; path = Source/FieldDescriptor.swift; sourceTree = "<group>"; };
@@ -522,7 +522,7 @@
 				D90E1124A9E4B5AFC7BB390D5E085659 /* HandyJSON */,
 				A1A2DD46CA39619E83AD51A40638F25F /* Moya */,
 				83ECB26444E6FDB783AD8C4ED74B8521 /* Result */,
-				BDDF738FBDF02F23F629EF40B9D75B0D /* WBNetworkServerKit */,
+				50044F07B177A9B2FFA3B8463123672C /* WBNetworkServerKit */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -540,6 +540,17 @@
 				9AE3BD6A9EB3F43F246B98A73190E3C5 /* WBNetworkServerKit.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		50044F07B177A9B2FFA3B8463123672C /* WBNetworkServerKit */ = {
+			isa = PBXGroup;
+			children = (
+				B23AE1075C4C66F5933A5A2DB608EA20 /* AppApi.swift */,
+				0677FDB12F90112BDEDFA31DCA572442 /* NetworkServerCore.swift */,
+				95661E5E94C7644B60068A46A8E29D3D /* Support Files */,
+			);
+			name = WBNetworkServerKit;
+			path = WBNetworkServerKit;
 			sourceTree = "<group>";
 		};
 		65D940E8935DFD45D8B122F2544224CF /* Pods-NetworkServerKit_Tests */ = {
@@ -599,6 +610,21 @@
 			path = Result;
 			sourceTree = "<group>";
 		};
+		95661E5E94C7644B60068A46A8E29D3D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				999502A6A18141DE6A81D94408A02CAF /* WBNetworkServerKit.modulemap */,
+				9CF87A1A15E6000BE23540D5F01198BC /* WBNetworkServerKit-dummy.m */,
+				B9AB276CF88C87C236084F9119D3F9D1 /* WBNetworkServerKit-Info.plist */,
+				6A74171209F602655C5EB453CFE01F92 /* WBNetworkServerKit-prefix.pch */,
+				BD093F5161828F6CEE7259A9E74D68AA /* WBNetworkServerKit-umbrella.h */,
+				90E39B31700047E181C47805E3253630 /* WBNetworkServerKit.debug.xcconfig */,
+				2E4340E372054BF6DE735DA55C60A222 /* WBNetworkServerKit.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/WBNetworkServerKit";
+			sourceTree = "<group>";
+		};
 		A1A2DD46CA39619E83AD51A40638F25F /* Moya */ = {
 			isa = PBXGroup;
 			children = (
@@ -622,17 +648,6 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/FBSnapshotTestCase";
-			sourceTree = "<group>";
-		};
-		BDDF738FBDF02F23F629EF40B9D75B0D /* WBNetworkServerKit */ = {
-			isa = PBXGroup;
-			children = (
-				29EED35D8C0A3072034C97348E13F537 /* AppApi.swift */,
-				3D4C7BE22CA0E02BE0197AF92A270BFD /* NetworkServerCore.swift */,
-				F70234B511669154A7899DF4D698C4BD /* Support Files */,
-			);
-			name = WBNetworkServerKit;
-			path = WBNetworkServerKit;
 			sourceTree = "<group>";
 		};
 		C76BC3E9B83D9AA4D0080D0775F98FA8 /* iOS */ = {
@@ -817,21 +832,6 @@
 			);
 			name = "Pods-NetworkServerKit_Example";
 			path = "Target Support Files/Pods-NetworkServerKit_Example";
-			sourceTree = "<group>";
-		};
-		F70234B511669154A7899DF4D698C4BD /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				D108A2970E5F40758ACAF7B951531F86 /* WBNetworkServerKit.modulemap */,
-				B082DA99B648430973A28E9741A595DE /* WBNetworkServerKit-dummy.m */,
-				BD6F607C7158ABE452A566C9E2D32E75 /* WBNetworkServerKit-Info.plist */,
-				DF3930579B8CEF8E89E9FA5FB7FF0296 /* WBNetworkServerKit-prefix.pch */,
-				F29C342EE173E89A4F6C7E4C4ABB904C /* WBNetworkServerKit-umbrella.h */,
-				5107151241E20ADE9442F1F7AE339F4D /* WBNetworkServerKit.debug.xcconfig */,
-				53BB5EE0C19240D66B1A77533100D956 /* WBNetworkServerKit.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/WBNetworkServerKit";
 			sourceTree = "<group>";
 		};
 		FD4B94024765CA64832491969ABE4932 /* FBSnapshotTestCase */ = {
@@ -1218,8 +1218,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				161AC84E72EC2DFD6F8F33D9529E36F7 /* AppApi.swift in Sources */,
-				A904742D8628E78115D13ACBEEB564C1 /* NetworkServerCore.swift in Sources */,
+				7484AB0F3A3E94FD083654C09A58F61D /* AppApi.swift in Sources */,
+				7D1C611B66117AC639A4A74049B02053 /* NetworkServerCore.swift in Sources */,
 				1703F0ABA14C5CFA9B333FBE0629EE01 /* WBNetworkServerKit-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1403,6 +1403,36 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		0695740D939FDF7F12D7F8CA80F32C06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90E39B31700047E181C47805E3253630 /* WBNetworkServerKit.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WBNetworkServerKit/WBNetworkServerKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WBNetworkServerKit/WBNetworkServerKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WBNetworkServerKit/WBNetworkServerKit.modulemap";
+				PRODUCT_MODULE_NAME = WBNetworkServerKit;
+				PRODUCT_NAME = WBNetworkServerKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		08683C32CA1591A85C2D31F33B16120E /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E2A9D868F2D46FC1180B15E7DA4D08D6 /* Moya.release.xcconfig */;
@@ -1427,37 +1457,6 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		119B4E90D339AA6BEFDA87256076C8A0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 53BB5EE0C19240D66B1A77533100D956 /* WBNetworkServerKit.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/WBNetworkServerKit/WBNetworkServerKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/WBNetworkServerKit/WBNetworkServerKit-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/WBNetworkServerKit/WBNetworkServerKit.modulemap";
-				PRODUCT_MODULE_NAME = WBNetworkServerKit;
-				PRODUCT_NAME = WBNetworkServerKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1648,36 +1647,6 @@
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
-		};
-		66E8D39E31C9D025A38734D2562E1F05 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5107151241E20ADE9442F1F7AE339F4D /* WBNetworkServerKit.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/WBNetworkServerKit/WBNetworkServerKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/WBNetworkServerKit/WBNetworkServerKit-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/WBNetworkServerKit/WBNetworkServerKit.modulemap";
-				PRODUCT_MODULE_NAME = WBNetworkServerKit;
-				PRODUCT_NAME = WBNetworkServerKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		6B65637626D965DE0D41E38A6FDCF2E4 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -2025,6 +1994,37 @@
 			};
 			name = Debug;
 		};
+		D2E4EC595B8EAAA43C8248C399B97B0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E4340E372054BF6DE735DA55C60A222 /* WBNetworkServerKit.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WBNetworkServerKit/WBNetworkServerKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WBNetworkServerKit/WBNetworkServerKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WBNetworkServerKit/WBNetworkServerKit.modulemap";
+				PRODUCT_MODULE_NAME = WBNetworkServerKit;
+				PRODUCT_NAME = WBNetworkServerKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -2058,8 +2058,8 @@
 		964F7E1F7629CB3BC4600958A36ADEEA /* Build configuration list for PBXNativeTarget "WBNetworkServerKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				66E8D39E31C9D025A38734D2562E1F05 /* Debug */,
-				119B4E90D339AA6BEFDA87256076C8A0 /* Release */,
+				0695740D939FDF7F12D7F8CA80F32C06 /* Debug */,
+				D2E4EC595B8EAAA43C8248C399B97B0D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
