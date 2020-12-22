@@ -2,7 +2,7 @@ use_frameworks!
 
 target 'NetworkServerKit_Example' do
   
-	pod 'WBNetworkServerKit', '~> 0.2.4'
+	pod 'WBNetworkServerKit', '~> 0.2.5'
 #pod 'WBNetworkServerKit', :path => '..'
 
   target 'NetworkServerKit_Tests' do
