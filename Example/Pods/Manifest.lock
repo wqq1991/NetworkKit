@@ -16,7 +16,7 @@ DEPENDENCIES:
   - WBNetworkServerKit
 
 SPEC REPOS:
-  trunk:
+  https://github.com/CocoaPods/specs.git:
     - Alamofire
     - HandyJSON
     - Moya
@@ -30,6 +30,6 @@ SPEC CHECKSUMS:
   Result: bd966fac789cc6c1563440b348ab2598cc24d5c7
   WBNetworkServerKit: e5e5319a9a0f432b85a5a4ffd7494936a987f21b
 
-PODFILE CHECKSUM: d4feeb8a0eebec89a4887d6b3c02d8cc4b49e977
+PODFILE CHECKSUM: 17abaa39178a022e73b9088f6ab76e547d58b784
 
 COCOAPODS: 1.10.0

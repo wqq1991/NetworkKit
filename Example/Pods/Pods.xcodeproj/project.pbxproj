@@ -1149,37 +1149,6 @@
 			};
 			name = Release;
 		};
-		119B4E90D339AA6BEFDA87256076C8A0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0F5AB4F5E03E6E836E3B9F5EB078529A /* WBNetworkServerKit.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/WBNetworkServerKit/WBNetworkServerKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/WBNetworkServerKit/WBNetworkServerKit-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/WBNetworkServerKit/WBNetworkServerKit.modulemap";
-				PRODUCT_MODULE_NAME = WBNetworkServerKit;
-				PRODUCT_NAME = WBNetworkServerKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		18965E6DA95F67A01464D93F869AAE34 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5FC35E25290E7093E9C026173D6B78D8 /* Pods-NetworkServerKit.debug.xcconfig */;
@@ -1232,6 +1201,36 @@
 				MODULEMAP_FILE = "Target Support Files/Moya/Moya.modulemap";
 				PRODUCT_MODULE_NAME = Moya;
 				PRODUCT_NAME = Moya;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3B1618C962E586A4C55A540D1C608F59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8F14BAE06E326B6776AEA478A6A5659 /* WBNetworkServerKit.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WBNetworkServerKit/WBNetworkServerKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WBNetworkServerKit/WBNetworkServerKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WBNetworkServerKit/WBNetworkServerKit.modulemap";
+				PRODUCT_MODULE_NAME = WBNetworkServerKit;
+				PRODUCT_NAME = WBNetworkServerKit;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -1304,9 +1303,9 @@
 			};
 			name = Release;
 		};
-		66E8D39E31C9D025A38734D2562E1F05 /* Debug */ = {
+		5C52BE2BFE48BA88F19C24B11469B472 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C8F14BAE06E326B6776AEA478A6A5659 /* WBNetworkServerKit.debug.xcconfig */;
+			baseConfigurationReference = 0F5AB4F5E03E6E836E3B9F5EB078529A /* WBNetworkServerKit.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1327,12 +1326,13 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		79759604D78320E712558F49DF19AA9F /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1638,8 +1638,8 @@
 		964F7E1F7629CB3BC4600958A36ADEEA /* Build configuration list for PBXNativeTarget "WBNetworkServerKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				66E8D39E31C9D025A38734D2562E1F05 /* Debug */,
-				119B4E90D339AA6BEFDA87256076C8A0 /* Release */,
+				3B1618C962E586A4C55A540D1C608F59 /* Debug */,
+				5C52BE2BFE48BA88F19C24B11469B472 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
