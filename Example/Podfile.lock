@@ -1,10 +1,5 @@
 PODS:
   - Alamofire (4.9.1)
-  - FBSnapshotTestCase (2.1.4):
-    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
-  - FBSnapshotTestCase/Core (2.1.4)
-  - FBSnapshotTestCase/SwiftSupport (2.1.4):
-    - FBSnapshotTestCase/Core
   - HandyJSON (5.0.2)
   - Moya (13.0.1):
     - Moya/Core (= 13.0.1)
@@ -12,19 +7,17 @@ PODS:
     - Alamofire (~> 4.1)
     - Result (~> 4.1)
   - Result (4.1.0)
-  - WBNetworkServerKit (0.1.9):
+  - WBNetworkServerKit (0.2.2):
     - Alamofire
     - HandyJSON
     - Moya
 
 DEPENDENCIES:
-  - FBSnapshotTestCase (~> 2.1.4)
   - WBNetworkServerKit
 
 SPEC REPOS:
   trunk:
     - Alamofire
-    - FBSnapshotTestCase
     - HandyJSON
     - Moya
     - Result
@@ -32,12 +25,11 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
-  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
   HandyJSON: 9e4e236f5d2dbefad5155a77417bbea438201c03
   Moya: f4a4b80ff2f8a4ffc208dfb31cd91636622fee6e
   Result: bd966fac789cc6c1563440b348ab2598cc24d5c7
-  WBNetworkServerKit: 27a2cc6644a3e1b105896548ba3965f67ce6ad18
+  WBNetworkServerKit: e5e5319a9a0f432b85a5a4ffd7494936a987f21b
 
-PODFILE CHECKSUM: 71de83d262783ba0e652e4e70429b2d10dba4c71
+PODFILE CHECKSUM: d4feeb8a0eebec89a4887d6b3c02d8cc4b49e977
 
 COCOAPODS: 1.10.0

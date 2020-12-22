@@ -1,6 +1,0 @@
-framework module Pods_NetworkServerKit_Example {
-  umbrella header "Pods-NetworkServerKit_Example-umbrella.h"
-
-  export *
-  module * { export * }
-}

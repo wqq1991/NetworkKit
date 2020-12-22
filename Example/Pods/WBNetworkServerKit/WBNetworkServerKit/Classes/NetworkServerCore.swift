@@ -8,7 +8,7 @@
 import UIKit
 import Moya
 
-public class NetworkServerCore: NSObject {
+@objcMembers public class NetworkServerCore: NSObject {
 	
 	public static let sharedInstance = NetworkServerCore()
 	
