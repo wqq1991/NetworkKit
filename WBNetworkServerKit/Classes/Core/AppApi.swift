@@ -72,7 +72,7 @@ extension AppApi : TargetType {
 		let parameters = self.parameters
 		
 		self.networkDebugLog(title: "🚀🚀发送请求🚀🚀", domainName: self.baseURL.absoluteString, path: self.path, describe: "请求包文:", parameters: "\nParameters：\(parameters) \nHeaders：\(String(describing: self.headers))\nUUID:\("")")
-		
+		 
 		var encodingType : ParameterEncoding = JSONEncoding.default
 		
 		switch headers?["Content-Type"] {
@@ -94,6 +94,7 @@ extension AppApi : TargetType {
 		{
 			return .requestParameters(parameters: parameters, encoding:encodingType)
 		}
+		
 	}
 	
 	var headers: [String : String]? {
