@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'WBNetworkServerKit'
-  s.version          = '0.2.7'
+  s.version          = '0.2.8'
   s.summary          = '一个简单的网络请求框架'
 
 # This description is used to generate tags and improve search results.
@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '10.0'
 
-  s.source_files = 'NetworkServerKit/Classes/**/*.{swift,h,m}'
+  s.source_files = 'WBNetworkServerKit/Classes/**/*.{swift,h,m}'
   
   # s.resource_bundles = {
   #   'NetworkServerKit' => ['NetworkServerKit/Assets/*.png']

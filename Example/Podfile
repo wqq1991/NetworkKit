@@ -4,7 +4,7 @@ use_frameworks!
 
 target 'NetworkServerKit' do
   
-	pod 'WBNetworkServerKit' , '~> 0.2.6'
+	pod 'WBNetworkServerKit', '~> 0.2.7'
 #	pod 'FBSnapshotTestCase' , '~> 2.1.4'
 #pod 'WBNetworkServerKit', :path => '..'
 
